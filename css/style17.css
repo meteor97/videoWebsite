@@ -1,0 +1,398 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0; padding:0;list-style: none;
+
+}
+
+#header{
+	width:100%;
+	height:180px;
+	background:url(../image/B3.png)  no-repeat;
+
+	
+}
+#banner{
+	margin:0 auto;
+	width:997px;
+	height:60px;
+	padding-top:5px;
+	
+}
+.ban{
+	width:800px;
+	height:30px;
+	margin:0 auto;
+	
+	
+	
+}
+ .ban li{
+	float:left;
+	}
+	.ban li a{
+	width:130px;
+	display:inline-block;
+	height:50px; 
+	text-align:center; 
+	line-height:60px;
+	background-color:#0CF;
+    font-size:18px;
+	color:#000;
+	text-decoration:none;
+	
+}
+li a:hover{
+	background:#0CF;
+	 center center;
+	}
+
+#content{
+	margin:0 auto;
+	width:997px;
+	height:2000px;
+
+	}
+	
+	.jianjie,.mv,.video,.pic{
+		margin-top:10px;
+		font-size:24px;
+		font-weight:300;
+		
+	}
+	.introduce{
+		margin-top:10px;
+		width:600px;
+		height:450px;
+	
+	}
+	.tu{
+	width: 350px;
+	height: 400px;
+	position: absolute;
+	margin-left: 15px;
+	left: 789px;
+	top: 309px;
+	}
+	
+
+.zhuan{
+	margin-top:20px;}
+	.zhuanji{
+		padding-top:15px;}
+	.zhuan ul li{
+		margin:0px 10px;
+		float:left;
+		}
+	
+	
+	.mv,.video{
+		width:700px;
+	}
+	.yue{
+	position: absolute;
+	width: 247px;
+	left: 910px;
+	top: 777px;
+}
+
+
+.tuijian{
+	position: absolute;
+	width: 247px;
+	left: 904px;
+	top: 1300px;
+}
+
+.tuitu{
+	position: absolute;
+	width: 267px;
+	height: 380px;
+	left: 890px;
+	top: 1358px;
+}
+#TU{
+    width: 252px;
+    height: 272px;
+    overflow: hidden;
+    position: relative;
+    margin: 20px auto;
+}
+#TU img {
+    width: 252px;
+    height: 272px;
+    position: absolute;
+    top: 0;
+    left: -400px;
+    z-index: 1;
+    opacity: 1;
+    transition: all linear 500ms;
+    -o-transition: all linear 500ms;
+    -moz-transition: all linear 500ms;
+    -webkit-transition: all linear 500ms;
+}
+#TU img:target {
+    left: 0;
+    z-index: 9;
+    opacity: 1;
+}
+#TU img:first-child {
+	left: 0;
+}
+#slider {
+    width: 150px;
+    height: 30px;
+    margin: 20px auto;
+	padding-left:5px;
+	
+}
+#slider a {
+    text-decoration: none;
+    background:#0CC;
+    border: 1px solid #C6E4F2;
+    padding: 5px 6px;
+    color: #222;
+    margin: 20px auto;
+	
+	
+}
+#slider a:hover {
+    background: #C6E4F2;
+}
+
+
+
+
+
+	
+	
+
+
+
+
+
+.MV,.video1{
+		margin-top:10px;
+		width:700px;
+		height:450px;
+		
+	}
+	.v1 ,.v2,.v3,.v4,.v5,.v6,.d1,.d2,.d3,.d4,.d5,.d6{
+	margin-top: 5px;
+	margin-left:5px;
+	width: 203px;
+	height: 165px;
+	}
+	.v1{
+	position: absolute;
+	top: 830px;
+	left: 195px;
+	width: 207px;
+}
+	
+	.v2{
+	position: absolute;
+	left: 426px;
+	top: 830px;
+	}
+	.v3{
+	position: absolute;
+	left: 653px;
+	top: 830px;
+}
+.v4{
+	position: absolute;
+	top: 1049px;
+	left: 195px;
+	
+}
+.v5{
+	position: absolute;
+	left: 426px;
+	top: 1049px;
+	
+	
+}
+.v6{
+	position: absolute;
+	left: 653px;
+	top: 1049px;
+	
+	
+}
+.v1,.v2,.v3,.v4,.v5,.v6 p{
+	text-align:center;}
+.music{
+	position: absolute;
+	width: 267px;
+	height: 400px;
+	left: 905px;
+	top: 821px;
+}
+.mus li a{
+	width:100%;
+	color:#000;
+	font-size:18px;
+	text-decoration:none;
+	line-height:50px;
+	}
+.d1{
+	position: absolute;
+	top: 1345px;
+	left: 195px;
+	width: 207px;
+}
+.d2{
+	position: absolute;
+	
+	left: 425px;
+	top: 1345px;
+}
+.d3{
+	position: absolute;
+	
+	left: 655px;
+	top: 1345px;
+}
+.d4{
+	position: absolute;
+	
+	left: 195px;
+	top: 1585px;
+}
+.d5{
+	position: absolute;
+	
+	left: 425px;
+	top: 1585px;
+}
+.d6{
+	position: absolute;
+	
+	left: 655px;
+	top: 1585px;
+}
+.picture{
+	margin-top:10px;
+	width:100%;
+	height:400px;
+	
+}
+.p1,.p2{
+	margin-top:5px;
+	width:100%;
+	height:168px;}
+	.p1 ul li{
+		float:left;
+		margin:0px 10px;}
+	.p2 ul li{
+		float:left;
+		margin:0px 10px;}
+		
+		
+		
+		
+		
+		#footer{
+	width:100%; 
+	height:103px； 
+	color:#fff; 
+	line-height:26px; 
+	text-align:center; 
+	padding-top:25px;  
+	margin-top:10px;
+	}
+
+
+
+
+
+
+/*京东右侧固定图标菜单栏*/
+.celan{
+	position: fixed;
+	top: 0;
+	right: 50px;
+	height: 100%;
+	width: 6px;
+	
+}
+
+.celan ul{
+  	position:absolute;
+  	top: 50%;
+  	right: 0;
+  	transform: translate(0,-30%);
+  	
+}
+.celan ul li{
+	width: 50px;
+	height: 50px;
+	margin-bottom: 2px;
+	background-color: #7A6E6E;
+	position: relative;
+}
+.celan ul .JIAN .toolbars-ico{
+	display: block;
+	width: 50px;
+	height: 50px;
+	background:url(../image/jj.png)no-repeat ;
+}
+.celan ul .VIDEO .toolbars-ico{
+	display: block;
+	width: 50px;
+	height: 50px;
+	background:url(../image/MV.png)no-repeat ;
+}
+.celan ul .SP .toolbars-ico{
+	display: block;
+	width: 50px;
+	height: 50px;
+	background:url(../image/sp.png)no-repeat ;
+}
+.celan ul .TUJI .toolbars-ico{
+	display: block;
+	width: 50px;
+	height: 50px;
+	background:url(../image/tuji.png)no-repeat ;
+}
+.celan ul .YYUE .toolbars-ico{
+	display: block;
+	width: 50px;
+	height: 50px;
+	background:url(../image/yy.png)no-repeat ;
+}
+
+
+.celan ul .DBU .toolbars-ico{
+	display: block;
+	width: 50px;
+	height: 50px;
+	background:url(../image/db.jpg)no-repeat ;
+}
+	/*鼠标悬浮后伸出的部分*/
+.celan .ce{
+	position: absolute;
+	top: 0;
+	right: 40px;
+	width: 0;
+	overflow: hidden;
+	height: 50px;
+	line-height: 35px;
+	background-color: #09F;
+	text-align: center;	
+	color: #fff;
+	z-index: -1;
+	transition: width .3s;
+}
+	/*鼠标悬浮后的效果*/
+
+.celan ul li:hover .ce{
+	width: 62px;
+	background-color: #FF0;
+}
+
+
+.DBU:hover .ce{
+	width: 62px;
+	background-color: #09F;
+}
